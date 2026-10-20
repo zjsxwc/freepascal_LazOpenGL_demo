@@ -1,0 +1,18 @@
+object Form1: TForm1
+  Left = 642
+  Height = 445
+  Top = 271
+  Width = 563
+  Caption = 'Form1'
+  ClientHeight = 445
+  ClientWidth = 563
+  LCLVersion = '4.8.0.0'
+  OnCreate = FormCreate
+  object OpenGLControl1: TOpenGLControl
+    Left = 56
+    Height = 274
+    Top = 56
+    Width = 404
+    OnPaint = OpenGLControl1Paint
+  end
+end
